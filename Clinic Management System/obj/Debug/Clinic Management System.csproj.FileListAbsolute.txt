@@ -1,0 +1,67 @@
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.csprojResolveAssemblyReference.cache
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\Clinic Management System.dll.config
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\Clinic Management System.dll
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\Clinic Management System.pdb
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\EntityFramework.dll
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\EntityFramework.SqlServer.dll
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Helpers.dll
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Mvc.dll
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Razor.dll
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.dll
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\EntityFramework.xml
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\EntityFramework.SqlServer.xml
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Razor.xml
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.xml
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Helpers.xml
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Mvc.xml
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.dll
+C:\Users\asp.APTECH\Desktop\SK\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.pdb
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\Clinic Management System.dll.config
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\Clinic Management System.dll
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\Clinic Management System.pdb
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\EntityFramework.dll
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\EntityFramework.SqlServer.dll
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\Microsoft.Web.Infrastructure.dll
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Helpers.dll
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Mvc.dll
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Razor.dll
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.Deployment.dll
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.dll
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.Razor.dll
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\EntityFramework.xml
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\EntityFramework.SqlServer.xml
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Razor.xml
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.xml
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.Deployment.xml
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.Razor.xml
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Helpers.xml
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\bin\System.Web.Mvc.xml
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.csprojResolveAssemblyReference.cache
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.dll
+D:\eProject Clinic Management System-20191210T051156Z-001\eProject Clinic Management System\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.pdb
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\Clinic Management System.dll.config
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\Clinic Management System.dll
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\Clinic Management System.pdb
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\EntityFramework.dll
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\EntityFramework.SqlServer.dll
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\System.Web.Helpers.dll
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\System.Web.Mvc.dll
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\System.Web.Razor.dll
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.dll
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\EntityFramework.xml
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\EntityFramework.SqlServer.xml
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\System.Web.Razor.xml
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.xml
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\System.Web.Helpers.xml
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\bin\System.Web.Mvc.xml
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.dll
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.pdb
+C:\Users\asp.APTECH\Desktop\SK\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.csprojResolveAssemblyReference.cache

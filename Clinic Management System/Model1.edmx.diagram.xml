@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="87506d0c16384b39ba5f8c31ed37de03" Name="Diagram1" ZoomLevel="66">
+        <EntityTypeShape EntityType="Database1Model.Admin" Width="1.5" PointX="4.625" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Contact" Width="1.5" PointX="6.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Education" Width="1.5" PointX="3.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Feedback" Width="1.5" PointX="8.125" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Invoice" Width="1.5" PointX="4.625" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Lecture_Booking" Width="1.5" PointX="8.125" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Lecture" Width="1.5" PointX="5.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Practical_Booking" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Practical_Conducted" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Product_Type" Width="1.5" PointX="0.5" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Product" Width="1.5" PointX="2.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.ProductType" Width="1.5" PointX="8.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Purchase" Width="1.5" PointX="5" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Sale" Width="1.5" PointX="6.5" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Seminar" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Seminar_Booking" Width="1.5" PointX="2.875" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Staff" Width="1.5" PointX="7.875" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Stock" Width="1.5" PointX="5" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.User" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <AssociationConnector Association="Database1Model.FK_Lectures_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Practical_Conducted_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Seminar_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Invoice_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Sales_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Lectures_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Practical_Booking_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Practical_Booking_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Practical_Conducted_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Products_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Purchase_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Sales_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Stocks_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Sales_ToTable_2" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Seminar_Booking_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Seminar_Booking_ToTable" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="User_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Date_Of_Birth" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Picture" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Message" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Education">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Type" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Feedback">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+    <Property Name="Complain" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Suggestion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Satisfaction" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Invoice">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="User_Id" Type="int" />
+    <Property Name="Bill" Type="int" />
+    <Property Name="Date" Type="date" />
+  </EntityType>
+  <EntityType Name="Lecture_Booking">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+    <Property Name="Lec_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Lectures">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="E_id" Type="int" Nullable="false" />
+    <Property Name="Subject" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Staff_Id" Type="int" Nullable="false" />
+    <Property Name="Date_Time" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Practical_Booking">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+    <Property Name="Pra_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Practical_Conducted">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="E_Id" Type="int" Nullable="false" />
+    <Property Name="Subject" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Staff_Id" Type="int" Nullable="false" />
+    <Property Name="Date_Time" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Product_Type">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Type" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Type" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Price" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Picture" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Available_Quantitiy" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Purchase">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Product_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Quantity" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Price" Type="int" Nullable="false" />
+    <Property Name="Date_Time" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sales">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product_Id" Type="int" Nullable="false" />
+    <Property Name="Invoice_Id" Type="int" Nullable="false" />
+    <Property Name="User_id" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Unit_Price" Type="int" />
+    <Property Name="Bill" Type="int" />
+  </EntityType>
+  <EntityType Name="Seminar">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="E_Id" Type="int" Nullable="false" />
+    <Property Name="Subject" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Staff_Id" Type="int" Nullable="false" />
+    <Property Name="Date_Time" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Seminar_Booking">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+    <Property Name="Sem_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Staff">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="User_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Qualification" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Date_Of_Birth" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Picture" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Stocks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product_Id" Type="int" Nullable="false" />
+    <Property Name="Avaibility" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Gender" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Card_Details" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CNIC" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contact_No." Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Town" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="User_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Invoice_ToTable">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Invoice" Type="Self.Invoice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Invoice">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lectures_ToTable">
+    <End Role="Education" Type="Self.Education" Multiplicity="1" />
+    <End Role="Lectures" Type="Self.Lectures" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Education">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Lectures">
+        <PropertyRef Name="E_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lectures_ToTable_1">
+    <End Role="Staff" Type="Self.Staff" Multiplicity="1" />
+    <End Role="Lectures" Type="Self.Lectures" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Staff">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Lectures">
+        <PropertyRef Name="Staff_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Practical_Booking_ToTable">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Practical_Booking" Type="Self.Practical_Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Practical_Booking">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Practical_Booking_ToTable_1">
+    <End Role="Practical_Conducted" Type="Self.Practical_Conducted" Multiplicity="1" />
+    <End Role="Practical_Booking" Type="Self.Practical_Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Practical_Conducted">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Practical_Booking">
+        <PropertyRef Name="Pra_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Practical_Conducted_ToTable">
+    <End Role="Education" Type="Self.Education" Multiplicity="1" />
+    <End Role="Practical_Conducted" Type="Self.Practical_Conducted" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Education">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Practical_Conducted">
+        <PropertyRef Name="E_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Practical_Conducted_ToTable_1">
+    <End Role="Staff" Type="Self.Staff" Multiplicity="1" />
+    <End Role="Practical_Conducted" Type="Self.Practical_Conducted" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Staff">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Practical_Conducted">
+        <PropertyRef Name="Staff_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_ToTable">
+    <End Role="Product_Type" Type="Self.Product_Type" Multiplicity="1" />
+    <End Role="Products" Type="Self.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product_Type">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="Type" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Purchase_ToTable">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="Purchase" Type="Self.Purchase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Purchase">
+        <PropertyRef Name="Product_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_ToTable">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="Product_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_ToTable_1">
+    <End Role="Invoice" Type="Self.Invoice" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Invoice">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="Invoice_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_ToTable_2">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="User_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Seminar_Booking_ToTable">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Seminar_Booking" Type="Self.Seminar_Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Seminar_Booking">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Seminar_Booking_ToTable_1">
+    <End Role="Seminar" Type="Self.Seminar" Multiplicity="1" />
+    <End Role="Seminar_Booking" Type="Self.Seminar_Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Seminar">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Seminar_Booking">
+        <PropertyRef Name="Sem_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Seminar_ToTable">
+    <End Role="Education" Type="Self.Education" Multiplicity="1" />
+    <End Role="Seminar" Type="Self.Seminar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Education">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Seminar">
+        <PropertyRef Name="E_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Stocks_ToTable_1">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="Stocks" Type="Self.Stocks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Stocks">
+        <PropertyRef Name="Product_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1ModelStoreContainer">
+    <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contact" EntityType="Self.Contact" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Education" EntityType="Self.Education" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Feedback" EntityType="Self.Feedback" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Invoice" EntityType="Self.Invoice" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lecture_Booking" EntityType="Self.Lecture_Booking" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lectures" EntityType="Self.Lectures" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Practical_Booking" EntityType="Self.Practical_Booking" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Practical_Conducted" EntityType="Self.Practical_Conducted" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product_Type" EntityType="Self.Product_Type" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Purchase" EntityType="Self.Purchase" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sales" EntityType="Self.Sales" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Seminar" EntityType="Self.Seminar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Seminar_Booking" EntityType="Self.Seminar_Booking" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Staff" EntityType="Self.Staff" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Stocks" EntityType="Self.Stocks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Invoice_ToTable" Association="Self.FK_Invoice_ToTable">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Invoice" EntitySet="Invoice" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lectures_ToTable" Association="Self.FK_Lectures_ToTable">
+      <End Role="Education" EntitySet="Education" />
+      <End Role="Lectures" EntitySet="Lectures" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lectures_ToTable_1" Association="Self.FK_Lectures_ToTable_1">
+      <End Role="Staff" EntitySet="Staff" />
+      <End Role="Lectures" EntitySet="Lectures" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Practical_Booking_ToTable" Association="Self.FK_Practical_Booking_ToTable">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Practical_Booking" EntitySet="Practical_Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Practical_Booking_ToTable_1" Association="Self.FK_Practical_Booking_ToTable_1">
+      <End Role="Practical_Conducted" EntitySet="Practical_Conducted" />
+      <End Role="Practical_Booking" EntitySet="Practical_Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Practical_Conducted_ToTable" Association="Self.FK_Practical_Conducted_ToTable">
+      <End Role="Education" EntitySet="Education" />
+      <End Role="Practical_Conducted" EntitySet="Practical_Conducted" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Practical_Conducted_ToTable_1" Association="Self.FK_Practical_Conducted_ToTable_1">
+      <End Role="Staff" EntitySet="Staff" />
+      <End Role="Practical_Conducted" EntitySet="Practical_Conducted" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_ToTable" Association="Self.FK_Products_ToTable">
+      <End Role="Product_Type" EntitySet="Product_Type" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Purchase_ToTable" Association="Self.FK_Purchase_ToTable">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Purchase" EntitySet="Purchase" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_ToTable" Association="Self.FK_Sales_ToTable">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_ToTable_1" Association="Self.FK_Sales_ToTable_1">
+      <End Role="Invoice" EntitySet="Invoice" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_ToTable_2" Association="Self.FK_Sales_ToTable_2">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Seminar_Booking_ToTable" Association="Self.FK_Seminar_Booking_ToTable">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Seminar_Booking" EntitySet="Seminar_Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Seminar_Booking_ToTable_1" Association="Self.FK_Seminar_Booking_ToTable_1">
+      <End Role="Seminar" EntitySet="Seminar" />
+      <End Role="Seminar_Booking" EntitySet="Seminar_Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Seminar_ToTable" Association="Self.FK_Seminar_ToTable">
+      <End Role="Education" EntitySet="Education" />
+      <End Role="Seminar" EntitySet="Seminar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Stocks_ToTable_1" Association="Self.FK_Stocks_ToTable_1">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Stocks" EntitySet="Stocks" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
